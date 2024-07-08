@@ -1,0 +1,80 @@
+/* Background dan font color */
+body {
+    background-color: #d6f1f1; /* Background warna abu-abu */
+    color: #333; /* Warna teks */
+}
+
+/* Link */
+a:link,
+a:visited {
+    color: #0066cc; /* Warna link */
+    text-decoration: none; /* Hapus garis bawah pada link */
+}
+
+a:hover {
+    color: #004080; /* Warna link saat hover */
+    text-decoration: underline; /* Garis bawah pada link saat hover */
+}
+
+/* Header */
+header {
+    background-color: #d6f1f1; /* Latar belakang header putih */
+    padding: 20px; /* Padding untuk header */
+    margin-bottom: 20px; /* Margin bawah untuk memberi jarak antara header dan konten */
+}
+
+/* Navigasi */
+nav {
+    background-color: #333; /* Latar belakang navigasi */
+    color: #fff; /* Warna teks navigasi */
+    padding: 10px; /* Padding untuk navigasi */
+}
+
+/* Daftar */
+ul {
+    list-style-type: none; /* Hapus bullet pada daftar */
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Latar belakang footer */
+    color: #fff; /* Warna teks footer */
+    padding: 20px; /* Padding untuk footer */
+    margin-top: 20px; /* Margin atas untuk memberi jarak antara footer dan konten */
+}
+
+/* Tombol */
+.button {
+    background-color: #0066cc; /* Warna latar tombol */
+    color: #fff; /* Warna teks tombol */
+    padding: 10px 20px; /* Padding untuk tombol */
+    border: none; /* Hilangkan border tombol */
+    border-radius: 4px; /* Bentuk sudut tombol */
+    cursor: pointer; /* Ganti cursor saat hover ke pointer */
+}
+
+.button:hover {
+    background-color: #004080; /* Warna tombol saat hover */
+}
+
+/* Kotak input */
+input[type="text"],
+input[type="password"],
+textarea {
+    padding: 10px; /* Padding untuk input dan textarea */
+    border: 1px solid #ccc; /* Garis border untuk input dan textarea */
+    border-radius: 4px; /* Bentuk sudut input dan textarea */
+    width: 100%; /* Lebar input dan textarea 100% */
+    box-sizing: border-box; /* Ukuran box termasuk border */
+    margin-bottom: 10px; /* Margin bawah untuk memberi jarak antara input dan textarea */
+}
+
+/* Kotak pilihan */
+select {
+    padding: 10px; /* Padding untuk select */
+    border: 1px solid #ccc; /* Garis border untuk select */
+    border-radius: 4px; /* Bentuk sudut select */
+    width: 100%; /* Lebar select 100% */
+    box-sizing: border-box; /* Ukuran box termasuk border */
+    margin-bottom: 10px; /* Margin bawah untuk memberi jarak antara select */
+}

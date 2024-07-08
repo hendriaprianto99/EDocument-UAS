@@ -1,0 +1,825 @@
+/* ----------------------------------------------------
+Theme Name:		StarRestaurant - HTML Template
+Version:		1.0
+Author:			StarRestaurant
+------------------------------------------------------- */
+
+
+/* ======================================================
+	TABLE OF CONTENTS
+   ====================================================== */
+
+/**
+
+* 1.0	Settings
+* 1.1	Navigation & Sidebars
+* 1.2	Header
+* 1.3	Slider
+* 1.4	Banners
+* 1.5	About Us
+* 1.6	Services
+* 1.7	Menu
+* 1.8	Testimonial
+* 1.9	Footer
+* 1.10	Page Cover
+* 1.11	Pagination
+* 1.12	Comments & Reviews
+* 1.13	Custom Form
+* 1.14	Form Page Links
+* 1.15	Menu Pages
+* 1.16	Chef Page
+* 1.17	Gallery Pages
+* 1.18	User Pages
+* 1.19	Shop Pages
+* 1.20	Extra Pages
+
+**/
+
+/* -----------------------------------------------------
+		Settings
+   ----------------------------------------------------- */
+
+/* Ubah warna latar belakang header dan footer menjadi hitam */
+.header, #footer {
+    background-color: #000;
+}
+
+/* Ubah warna teks pada elemen-elemen ini menjadi hijau neon */
+.page-heading.white-heading,
+.btn-orange,
+.btn-orange:hover,
+.btn-black,
+.btn-black:hover,
+.btn-black:focus,
+.fullscr-navigation #fullscr-close,
+#mySidenav #sidenav-close,
+#mySidenav #web-name ul li .fab:hover,
+#main-menu .list-group > .list-group-item.active,
+#main-menu .list-group > .list-group-item:focus,
+#main-menu .list-group > .list-group-item.active:focus,
+#main-menu .list-group > .list-group-item:hover,
+.header .header-links li.shopping-cart .cart-badge,
+.flexslider li p,
+#slider ul li .meta,
+.cart-list li .total,
+#banner-1,
+.service-block .fa,
+.menu .nav-tabs li.active a,
+.menu .dish-list:hover .btn,
+.menu .dish-list:hover .btn .fa,
+.menu.black-menu .dish-list-text .btn .fa,
+.menu.black-menu .dish-list-text h4 a,
+.menu.black-menu .owl-carousel.owl-theme .owl-controls div,
+#testimonial.text-white .item .reviewer-text blockquote,
+#testimonial.text-white .item .reviewer-text small,
+.page-cover h3,
+.pages .pagination li:first-child a,
+.pages .pagination li:last-child a,
+.pages .pagination li.active a,
+.pages .pagination li:hover a,
+.form-page-connect-social li .btn,
+.form-page-connect-social li .btn.any,
+#filter-buttons button.active,
+#user-profile-page .edit-link a span,
+.order-list .cart-info h4 span,
+.order-list .cart-info h4:before,
+.order-list .cart-info h4:after,
+#order-history-page .form-group select,
+#order-history-page .form-group .fa,
+#bakery-homepage #about-us p {
+    color: #0f0; /* hijau neon */
+}
+
+/* Ubah latar belakang area testimonial dan layanan menjadi biru neon */
+#testimonial.text-white .owl-controls .owl-page span,
+#services {
+    background: #00f; /* biru neon */
+}
+
+/* Ubah warna latar belakang footer dan ikon media sosial menjadi biru neon */
+#footer,
+.footer-social li .fab,
+#footer .copyright {
+    background: #00f; /* biru neon */
+}
+
+
+/* -----------------------------------------------------
+		Navigation & Sidebars
+   ----------------------------------------------------- */
+
+/* -----------------------------------------------------
+		Settings
+   ----------------------------------------------------- */
+
+/* Ubah warna latar belakang header dan footer menjadi hitam */
+.header, #footer {
+    background-color: #000;
+}
+
+/* Ubah warna teks pada elemen-elemen ini menjadi hijau neon */
+.page-heading.white-heading,
+.btn-orange,
+.btn-orange:hover,
+.btn-black,
+.btn-black:hover,
+.btn-black:focus,
+.fullscr-navigation #fullscr-close,
+#mySidenav #sidenav-close,
+#mySidenav #web-name ul li .fab:hover,
+#main-menu .list-group > .list-group-item.active,
+#main-menu .list-group > .list-group-item:focus,
+#main-menu .list-group > .list-group-item.active:focus,
+#main-menu .list-group > .list-group-item:hover,
+.header .header-links li.shopping-cart .cart-badge,
+.flexslider li p,
+#slider ul li .meta,
+.cart-list li .total,
+#banner-1,
+.service-block .fa,
+.menu .nav-tabs li.active a,
+.menu .dish-list:hover .btn,
+.menu .dish-list:hover .btn .fa,
+.menu.black-menu .dish-list-text .btn .fa,
+.menu.black-menu .dish-list-text h4 a,
+.menu.black-menu .owl-carousel.owl-theme .owl-controls div,
+#testimonial.text-white .item .reviewer-text blockquote,
+#testimonial.text-white .item .reviewer-text small,
+.page-cover h3,
+.pages .pagination li:first-child a,
+.pages .pagination li:last-child a,
+.pages .pagination li.active a,
+.pages .pagination li:hover a,
+.form-page-connect-social li .btn,
+.form-page-connect-social li .btn.any,
+#filter-buttons button.active,
+#user-profile-page .edit-link a span,
+.order-list .cart-info h4 span,
+.order-list .cart-info h4:before,
+.order-list .cart-info h4:after,
+#order-history-page .form-group select,
+#order-history-page .form-group .fa,
+#bakery-homepage #about-us p {
+    color: #0f0; /* hijau neon */
+}
+
+/* Ubah latar belakang area testimonial dan layanan menjadi biru neon */
+#testimonial.text-white .owl-controls .owl-page span,
+#services {
+    background: #00f; /* biru neon */
+}
+
+/* Ubah warna latar belakang footer dan ikon media sosial menjadi biru neon */
+#footer,
+.footer-social li .fab,
+#footer .copyright {
+    background: #00f; /* biru neon */
+}
+
+/************* FULLSCREEN NAV *************/
+
+#fullscr-nav{
+	overflow-Y:auto;
+	overflow-X:hidden;
+	background:linear-gradient(rgba(0, 255, 255,0.5), rgba(0, 255, 255,0.5)), url('../images/full-scr-nav-back.jpg') center center;
+	background-size:cover;
+}
+
+.fullscr-navigation{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 300;
+    top: -100%;
+    right: 0;
+    transition: 0.5s;
+}
+
+.fullscr-navigation #fullscr-close{
+	margin:15px 0px;
+	display:inline-block;
+	padding:7px 25px 5px 20px;
+	font-size:25px;
+	border-radius:0px 30px 30px 0px;
+	border:0px;
+}
+
+.fullscr-navigation ul{
+	padding:10px 10px 15px;
+	overflow:hidden;
+}
+
+.fullscr-navigation li{
+	width:50%;
+	float:left;
+	margin:8px 0px;
+	text-align:center;
+	padding:0px 8px;
+}
+
+.fullscr-navigation li a{
+	padding:15% 0%;
+	display:block;
+	text-decoration:none;
+	border-bottom:1px solid;
+	background:#000;
+	color:#0f0;
+}
+
+.fullscr-navigation li .fullscr-nav-icon{
+	display:block;
+	font-size:30px;
+	margin-bottom:10px;
+}
+
+/**************** MYSIDENAV ***************/
+
+#mySidenav{
+	overflow-Y:auto;
+	overflow-X:hidden;
+	width:260px;
+	transition:.4s;
+	background:#000;
+	box-shadow:0px 0px 20px rgba(0,0,0,0.3);
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 300;
+    top: 0;
+    left:-120%;
+    transition: 0.5s;
+}
+
+#mySidenav::-webkit-scrollbar{
+    width: 0.5em;
+	background:#00f;
+}
+ 
+#mySidenav::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+#mySidenav::-webkit-scrollbar-thumb{
+	background-color:#0f0;
+	outline: 1px solid slategrey;
+}
+
+#mySidenav #web-name{
+	color:#0f0;
+	padding:30px 0px;
+}
+
+#mySidenav #web-name::after{
+	background:#00f;
+	transform:rotate(43deg);
+	position:absolute;
+	content:'';
+	display:block;
+	height:45px;
+	width:140px;
+	top:-20px;
+	right:-40px;
+}
+
+#mySidenav #web-name h2 .far{
+	margin-bottom:10px;
+}
+
+#mySidenav #web-name h2{
+	text-transform:uppercase;
+	text-align:center;
+	margin:0px;
+	font-size:26px;
+	font-weight:bold;
+	position:relative;
+}
+
+#mySidenav #web-name ul{
+	margin-top:20px;
+}
+
+#mySidenav #web-name ul li .fab{
+	width:30px;
+	height:30px;
+	border-radius:100%;
+	background:#0f0;
+	padding-top:8px;
+	color:#000;
+	box-shadow:inset 0px 0px 7px rgba(0,0,0,0.2);
+}
+
+#mySidenav #web-name ul li .fab:hover{
+	background:#00f;
+}
+
+#mySidenav #sidenav-close{
+	background:transparent;
+	font-size: 30px;
+	text-decoration:none;
+	padding:0px;
+	line-height:1.0em;
+	border:0px;
+}
+
+#mySidenav .sidenav-closebtn {
+	position:absolute;
+	top:1px;
+	right:9px;
+	width:100%;
+	text-align:right;
+}
+
+#mySidenav .list-group.panel{
+	border:0px;
+	box-shadow:none;
+}
+
+#mySidenav .list-group > .list-group-item{
+	border-radius:0px;
+	border-right:0px;
+	border-color:#0f0;
+	border-left:3px solid transparent;
+	background:#000;
+}
+
+#mySidenav .list-group > .list-group-item.active{
+	border-left:4px solid #00f;
+}
+
+#mySidenav .list-group > .list-group-item:last-child{
+	margin-bottom:50px;
+}
+
+#mySidenav .list-group .list-group-item{
+	font-size:14px;
+	color:#0f0;
+}
+
+#mySidenav .list-group-item .sidebar-icon{
+	width:18px;
+	text-align:center;
+	margin-right:20px;
+	font-size:14px;
+}
+
+#mySidenav .list-group-item .arrow{
+	margin:3px 0px 0px 5px;
+	font-size:14px;
+	float:right;
+}
+
+#mySidenav .list-group .sub-menu > .list-group-item{
+	padding-left:55px;
+	background:#000;
+	border-color:rgba(0,0,0,0.05);
+	border-radius:0px;
+}
+
+#mySidenav .list-group .sub-menu > .list-group-item.active,
+#mySidenav .list-group .sub-menu > .list-group-item:hover,
+#mySidenav .list-group .sub-menu > .list-group-item:focus{
+	background:#00f;	
+	color:#0f0;
+}
+
+
+/********** SHOPPING-CART-SIDEBAR *********/
+
+#shopping-cart-sidebar {
+    overflow-Y: auto;
+    overflow-X: hidden;
+    width: 280px;
+    transition: .4s;
+    background: #000;
+    box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.3);
+}
+
+.shc-sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 300;
+    top: 0;
+    right: -150%;
+    transition: all 0.5s;
+    border-top: 6px solid #0f0;
+    padding: 20px 15px 15px;
+}
+
+.cart-list li {
+    margin-bottom: 30px;
+}
+
+.cart-list li .item-text h4 a {
+    color: #0f0;
+}
+
+.cart-list li .item-text input {
+    background: #000;
+    border: 2px solid #0f0;
+    color: #0f0;
+}
+
+.cart-list li .total {
+    border-top: 1px solid #000;
+    background: #00f;
+    color: #0f0;
+}
+
+.cart-info h4 {
+    font-weight: bold;
+    color: #0f0;
+}
+
+.cart-info .btn {
+    margin-top: 15px;
+    background: #00f;
+    color: #0f0;
+    border: none;
+}
+
+/********** USER-PROFILE-SIDEBAR **********/
+
+#user-profile-sidebar {
+    overflow-Y: auto;
+    overflow-X: hidden;
+    width: 280px;
+    transition: .4s;
+    background: #000;
+    box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.3);
+}
+
+.user-prf-sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 300;
+    top: 0;
+    right: -150%;
+    transition: all 0.5s;
+}
+
+.user-prf-sidebar .overlay {
+    padding: 25px 0px;
+}
+
+.user-prf-sidebar .user-prf-sidebar-img img {
+    border: 4px dashed #0f0;
+    box-shadow: 0px 0px 5px rgba(0, 255, 255, 0.3);
+    margin-bottom: 10px;
+}
+
+.user-prf-sidebar .user-prf-sidebar-img h3 {
+    color: #0f0;
+    font-weight: bold;
+}
+
+.user-prf-sidebar .user-prf-sidebar-links li {
+    border-bottom: 1px solid rgba(0, 255, 255, 0.05);
+}
+
+.user-prf-sidebar .user-prf-sidebar-links li a {
+    color: #0f0;
+    padding: 10px 15px;
+}
+
+.user-prf-sidebar .user-prf-sidebar-links li a .fa {
+    color: #0f0;
+}
+
+
+/* -----------------------------------------------------
+        Header
+   ----------------------------------------------------- */
+
+   .header {
+    height: 52px;
+}
+
+.header .fixed-header {
+    background: #000;
+    box-shadow: 0px 3px 6px rgba(0, 255, 255, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0px 4px;
+    z-index: 100;
+}
+
+.header .header-logo h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0f0;
+    font-size: 21px;
+}
+
+.header .header-links li a {
+    color: #0f0;
+    font-size: 17px;
+}
+
+.header .header-links li.shopping-cart .cart-badge {
+    background: #0f0;
+}
+
+/* -----------------------------------------------------
+        Slider
+   ----------------------------------------------------- */
+
+#slider {
+    border: 0px;
+    margin: 0px;
+}
+
+#slider ul li h1 {
+    color: #0f0;
+}
+
+#slider li p {
+    color: #0f0;
+}
+
+/* -----------------------------------------------------
+        Banners
+   ----------------------------------------------------- */
+
+#banner-1 {
+    border-bottom: 4px solid #0f0;
+}
+
+#banner-1 li span {
+    color: #0f0;
+}
+
+/* -----------------------------------------------------
+        About Us
+   ----------------------------------------------------- */
+
+#about-us img + p {
+    color: #0f0;
+}
+
+/* -----------------------------------------------------
+        Services
+   ----------------------------------------------------- */
+
+#services .service-block .fa {
+    color: #0f0;
+}
+
+/* -----------------------------------------------------
+        Menu
+   ----------------------------------------------------- */
+
+.menu .nav-tabs li a {
+    color: #0f0;
+}
+
+.menu .dish-list-text h4 a {
+    color: #0f0;
+}
+
+.menu .dish-list-text .btn {
+    background: #000;
+    border: 2px solid #0f0;
+    color: #0f0;
+}
+
+/* -----------------------------------------------------
+        Testimonial
+   ----------------------------------------------------- */
+
+#owl-testimonial .item .reviewer-text blockquote {
+    color: #0f0;
+}
+
+#owl-testimonial .item .reviewer-text small {
+    color: #0f0;
+}
+
+/* -----------------------------------------------------
+        Footer
+   ----------------------------------------------------- */
+
+#footer {
+    background: #000;
+}
+
+#footer h3 {
+    color: #0f0;
+}
+
+#footer .footer-contact li span {
+    color: #0f0;
+}
+
+#footer .footer-social li .fab {
+    background: #000;
+    border: 1px solid #0f0;
+}
+
+#footer .footer-social li .fab:hover {
+    border-color: #0f0;
+}
+
+#footer .copyright a {
+    color: #0f0;
+}
+
+
+/* -----------------------------------------------------
+        Page Cover
+   ----------------------------------------------------- */
+
+   .page-cover h3 {
+    color: #0f0;
+}
+
+.page-cover .fa {
+    color: #0f0;
+}
+
+/* -----------------------------------------------------
+        Pagination
+   ----------------------------------------------------- */
+
+.pages .pagination li a {
+    background: #212121;
+    color: #0f0;
+}
+
+.pages .pagination li a:hover {
+    background: #404040;
+}
+
+/* -----------------------------------------------------
+        Comments & Reviews
+   ----------------------------------------------------- */
+
+.comments-wrapper .comment-block h4,
+.comments-wrapper .comment-block p,
+.comments-wrapper .comment-block a {
+    color: #0f0;
+}
+
+.comments-wrapper .comment-block .star-rating li .fa {
+    color: #fecd2d;
+}
+
+/* -----------------------------------------------------
+        Custom Form
+   ----------------------------------------------------- */
+
+.custom-form input,
+.custom-form select,
+.custom-form textarea {
+    border-left-color: #0f0;
+}
+
+.custom-form label {
+    color: #737373;
+}
+
+.custom-form .btn {
+    background: #0f0;
+    border: 2px solid #0f0;
+    color: #000;
+}
+
+.custom-form .btn:hover {
+    background: #000;
+    color: #0f0;
+}
+
+/* -----------------------------------------------------
+        Form Page Links
+   ----------------------------------------------------- */
+
+.form-page-links a {
+    color: #0f0;
+}
+
+/* -----------------------------------------------------
+        Menu Pages
+   ----------------------------------------------------- */
+
+.menu-detail .nav-tabs li {
+    border-bottom-color: #0f0;
+}
+
+.menu-detail .nav-tabs li a {
+    color: #0f0;
+}
+
+.menu-detail .nav-tabs li.active a:hover,
+.menu-detail .nav-tabs li.active a:focus {
+    background: none;
+    border: 0px;
+}
+
+/* -----------------------------------------------------
+        Gallery Pages
+   ----------------------------------------------------- */
+
+#filter-buttons button {
+    color: #0f0;
+    background: #212121;
+}
+
+#filter-buttons button.active {
+    font-weight: bold;
+}
+
+/* -----------------------------------------------------
+		User Pages
+   ----------------------------------------------------- */
+
+/*********** USER-PROFILE-PAGE ***********/
+
+#user-profile-img img {
+    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.3);
+}
+
+.user-profile-heading hr {
+    border-color: #0f0;
+}
+
+#user-profile-page .table-responsive {
+    border-color: #0f0;
+}
+
+#user-profile-page table tr {
+    border-color: #ddd;
+}
+
+#user-profile-page .edit-link a span {
+    color: #0f0;
+}
+
+/*********** EDIT-PROFILE-PAGE ***********/
+
+.form-profile-img img {
+    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.3);
+}
+
+/* -----------------------------------------------------
+        Shop Pages
+   ----------------------------------------------------- */
+
+/************* CHECKOUT-PAGE *************/
+
+#checkout-page .order-list {
+    border-color: #ddd;
+}
+
+.order-list li::before {
+    color: #0f0;
+}
+
+.order-list .order-item-info h4 a {
+    color: #333;
+}
+
+.order-list .order .total p {
+    background: #f6f6f6;
+    color: #262626;
+}
+
+.order-panel .panel-heading {
+    background: #f2f2f2;
+    border-left-color: #0f0;
+}
+
+.order-panel .panel-heading .order-status.success .fa,
+.order-panel .panel-heading .order-status.success .status-text {
+    color: green;
+}
+
+.order-panel .panel-heading .order-status.fail .fa,
+.order-panel .panel-heading .order-status.fail .status-text {
+    color: red;
+}
+
+/********** ORDER-HISTORY-PAGE **********/
+
+.order-panel {
+    border-color: #0f0;
+}
+
+#order-history-page .form-group select {
+    background: #333333;
+}
+
+#order-history-page .form-group select option {
+    background: white;
+    color: #333;
+}
+
+#order-history-page .form-group .fa-calendar-alt,
+#order-history-page .form-group .fa-angle-down {
+    color: #0f0;
+}
